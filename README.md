@@ -1,6 +1,9 @@
 # Plex-Auto-Updater
 Plex Auto-Updater checks if your current server is up to date, and will install the latest update if not.
 
+## Warning:
+Do not automate this on a set schedule until the [runaway data usage issue](https://github.com/aknobloch/Plex-Auto-Updater/issues/1) is resolved.
+
 ## Prerequisites
 * Debian-based server running Plex Media Server
 * Python 3 with the [PlexAPI](https://github.com/pkkid/python-plexapi) installed. (`pip3 install plexapi`)
